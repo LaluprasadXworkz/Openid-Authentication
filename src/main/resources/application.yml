@@ -1,0 +1,17 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          auth0:
+            client-id: xgkXjllNFmdZt8Cos3DAo0ev2jkIuSkb
+            client-secret: mb66Rxd6nq1GGKG2FCllteOSLqqNNYjwU2AWvqCLOZTj7yhXBwvfyVDV5_W8jffd
+            scope:
+              - openid
+              - profile
+              - email
+#            authorization-grant-type: authorization_code
+#            redirect-uri: "http://localhost:8080/login/oauth2/code/auth0"
+        provider:
+          auth0:
+            issuer-uri: https://dev-uy68iaysokm14ohg.us.auth0.com/
